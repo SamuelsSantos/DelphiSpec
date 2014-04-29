@@ -21,7 +21,9 @@ uses
   Generics.Collections,
   DelphiSpec.Core,
   DelphiSpec.Scenario,
-  DelphiSpec.DUnit;
+  DelphiSpec.DUnit,
+  SampleSpamFilterStepDefs in 'src\SampleSpamFilterStepDefs.pas',
+  SampleAccountsStepDefs in 'src\SampleAccountsStepDefs.pas';
 
 {$R *.RES}
 
